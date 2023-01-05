@@ -1,12 +1,14 @@
 # Ai Services
+The content on social networking sites and websites including captions and images. To detect ad violations we combine many techniques: 
+| Technique | Model | Description | Link |
+| ------ | ------ | ------ | ------ | 
+| Object detection | Yolo5 | Object detection where machine systems and software need to locate objects in an image/scene and identify each object including milk cans, babies, feeding bottles, pacifiers| [![](https://github.githubassets.com/favicons/favicon.png)](https://github.com/vividglobal/yolov5) |
+| Text Spotting | PAN ++ | Model recognizes text in images is of great importance for many image comprehension tasks such as recognizing milk label names, milk types. It includes two tasks of text detection and recognition.| [![](https://github.githubassets.com/favicons/favicon.png)](https://github.com/vividglobal/pan_pp.pytorch) |
+| Multi Task Classification | MobilenetV2, ResNet, biLSTM, ... | Use images and text on products to identify products and violations of each brand or product| [![](https://github.githubassets.com/favicons/favicon.png)](https://github.com/vividglobal/multi-task-classification) |
+| NLP | spaCy  | Model helps machines understand and effectively perform English-related tasks such as detecting violations on captions.| [![](https://github.githubassets.com/favicons/favicon.png)](https://github.com/vividglobal/nlp) |
+## Workflow
+[![](https://github.com/vividglobal/ai-services/blob/master/diagram/Vivid-Workflow.drawio.png?raw=true)](https://drive.google.com/file/d/1jdjN4Z7Uj368JI-WCavnwV-SG48guAV5/view?usp=sharing)
 
-## Models
-| Model | Description | Link |
-| ------ | ------ | ------ | 
-| Object detection | Object detection where machine systems and software need to locate objects in an image/scene and identify each object including milk cans, babies, feeding bottles, pacifiers| [![](https://github.githubassets.com/favicons/favicon.png)](https://github.com/vividglobal/yolov5) |
-| Text Spotting | Model recognizes text in images is of great importance for many image comprehension tasks such as recognizing milk label names, milk types. It includes two tasks of text detection and recognition.| [![](https://github.githubassets.com/favicons/favicon.png)](https://github.com/vividglobal/pan_pp.pytorch) |
-| Multi Task Classification | Use images and text on products to identify products and violations of each brand or product| [![](https://github.githubassets.com/favicons/favicon.png)](https://github.com/vividglobal/multi-task-classification) |
-| NLP | Model helps machines understand and effectively perform English-related tasks such as detecting violations on captions.| [![](https://github.githubassets.com/favicons/favicon.png)](https://github.com/vividglobal/nlp) |
 ## Clone and setup environment
 ### Requirments:
 ```sh
