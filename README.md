@@ -35,8 +35,8 @@ python run_service.py
 ```
 
 ### website
-github: https://github.com/vividglobal/front-end
-platforms: https://code.corporateaccountabilitytool.org/
+- github: https://github.com/vividglobal/front-end
+- platforms: https://code.corporateaccountabilitytool.org/
 
 ### hardware Requirements 
 | Hardware  | Configuration  |
