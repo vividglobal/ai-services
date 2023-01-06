@@ -33,3 +33,11 @@ bash ./connfig.sh
 ```sh
 python run_service.py
 ```
+
+### Hardware Requirements 
+| Hardware  | Configuration  |
+| ------ | ------ | 
+| Processor | 4 vCPUs  |
+| Memory | 16GB  |
+| Operating System Disk | 1000GB  |
+| GPU | NVIDIA Tesla K80 - 12GB  |
