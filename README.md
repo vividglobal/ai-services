@@ -16,7 +16,7 @@ The content on social networking sites and websites including captions and image
 5. The Multi-Task Classification model identifies the product in the images.
 6. The Conditional Statement determines if there is a violation.
 ## Clone and setup environment
-### Requirments:
+### requirments:
 ```sh
 sudo apt-get update
 sudo apt-get install g++
@@ -34,7 +34,7 @@ bash ./connfig.sh
 python run_service.py
 ```
 
-### Hardware Requirements 
+### hardware Requirements 
 | Hardware  | Configuration  |
 | ------ | ------ | 
 | Processor | 4 vCPUs  |
