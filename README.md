@@ -9,12 +9,12 @@ The content on social networking sites and websites including captions and image
 
 ## Workflow
 [![](https://github.com/vividglobal/ai-services/blob/master/diagram/Vivid-Workflow.drawio.png?raw=true)](https://drive.google.com/file/d/1jdjN4Z7Uj368JI-WCavnwV-SG48guAV5/view?usp=sharing)
-The input is posted on social networking sites and websites, including captions and images.
-The Text Spotting model extracts text from the images.
-The NLP model detects the intent of the captions and text in the images.
-The Object Detection model detects milk cans, babies, feeding bottles, and pacifiers in the images.
-The Multi-Task Classification model identifies the product in the images.
-The Conditional Statement determines if there is a violation.
+1. The input is posted on social networking sites and websites, including captions and images.
+2. The Text Spotting model extracts text from the images.
+3. The NLP model detects the intent of the captions and text in the images.
+4. The Object Detection model detects milk cans, babies, feeding bottles, and pacifiers in the images.
+5. The Multi-Task Classification model identifies the product in the images.
+6. The Conditional Statement determines if there is a violation.
 ## Clone and setup environment
 ### Requirments:
 ```sh
